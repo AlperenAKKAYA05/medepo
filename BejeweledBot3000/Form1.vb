@@ -82,7 +82,7 @@ Public Class Form1
     End Function
 
     Sub DrawBoardOnForm(blow_win_Board As blow_win_Board)
-        PictureBox2.Image = blow_win_ScreenReader.LatestBitmap
+        PictureBox1.Image = blow_win_ScreenReader.LatestBitmap
         For x = 0 To TileCount - 1
             For y = 0 To TileCount - 1
                 Dim blow_win_Tile As blow_win_Tile = blow_win_Board.GetTile(x, y)
